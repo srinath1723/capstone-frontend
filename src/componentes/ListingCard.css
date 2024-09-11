@@ -1,0 +1,49 @@
+/* src/components/ListingCard.css */
+.listing-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    background-color: white;
+    cursor: pointer;
+}
+
+.listing-card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+.listing-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.listing-info {
+    padding: 15px;
+}
+
+.listing-info h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.listing-info p {
+    font-size: 14px;
+    color: #777;
+    margin: 5px 0;
+}
+
+.listing-info a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ff5a5f;
+    font-weight: bold;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.listing-info a:hover {
+    color: #ffcd02;
+}

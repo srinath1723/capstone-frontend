@@ -1,9 +1,7 @@
-const App = () => {
-  return (
-    <div>
-      Hello world
-    </div>
-  )
-}
+import React from 'react';
+import AppRoutes from './routes';
+import './styles/global.css'; // Import global styles
 
-export default App
+const App = () => <AppRoutes />;
+
+export default App;
